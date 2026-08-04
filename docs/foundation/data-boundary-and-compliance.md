@@ -13,7 +13,7 @@ Last updated: 2026-08-04
 <summary>References</summary>
 
 - [Microsoft Agent 365 overview](https://learn.microsoft.com/en-us/microsoft-agent-365/overview)
-- [Microsoft Purview for AI apps](https://learn.microsoft.com/en-us/purview/ai-microsoft-purview)
+- [Microsoft Purview for AI (artificial intelligence) apps](https://learn.microsoft.com/en-us/purview/ai-microsoft-purview)
 - [Use Microsoft Purview for Agent365](https://learn.microsoft.com/en-us/purview/ai-agent-365)
 - [Data privacy for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy)
 
@@ -34,14 +34,14 @@ transmit, and enforce policy guardrails before scaling adoption.
 | --- | --- | --- |
 | Public | Marketing content and public knowledge | Open use with standard monitoring |
 | Internal | Operational documents and routine business data | Approved agent access, standard controls |
-| Sensitive | Personal, financial, and contractual information | Restricted access, stronger DLP and logging |
+| Sensitive | Personal, financial, and contractual information | Restricted access, stronger DLP (data loss prevention) and logging |
 | Highly regulated | Legal hold, critical records, high-risk data | Dedicated controls, explicit approvals, strict retention |
 
 ## Compliance control model
 
 1. Classify data before agent access is granted.
 2. Map each agent capability to allowed data zones.
-3. Apply DLP and exfiltration protections to prompt and response pathways.
+3. Apply DLP (data loss prevention) and exfiltration protections to prompt and response pathways.
 4. Record exceptions with expiry and accountable owner.
 5. Retain evidence for policy, user, and runtime decisions.
 
@@ -63,7 +63,7 @@ transmit, and enforce policy guardrails before scaling adoption.
 ## Business example
 
 > A compliance team allows an internal knowledge assistant to use internal and
-> sensitive zones but blocks highly regulated data. It enables DLP controls for
+> sensitive zones but blocks highly regulated data. It enables DLP (data loss prevention) controls for
 > prompt and response channels and requires compliance-owner sign-off before any
 > zone expansion. The policy model allows productivity gains without violating data
 > residency and audit requirements.

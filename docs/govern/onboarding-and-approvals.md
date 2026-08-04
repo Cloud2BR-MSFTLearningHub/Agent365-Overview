@@ -44,7 +44,7 @@ agent capabilities. Approval depth must be proportional to risk.
 
 | Decision point | Required approvers |
 | --- | --- |
-| Initial production enablement | Business owner and AI admin |
+| Initial production enablement | Business owner and AI (artificial intelligence) admin |
 | Sensitive data access | Compliance owner and security owner |
 | Privileged tool execution | Security owner and platform owner |
 | Exception to baseline policy | Governance board delegate |

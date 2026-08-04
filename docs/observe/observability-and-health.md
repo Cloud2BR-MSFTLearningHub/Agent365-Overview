@@ -49,7 +49,7 @@ single operating view, not separate dashboards with no correlation.
 | Metric | Green | Amber | Red |
 | --- | --- | --- | --- |
 | End-to-end success rate | >= 99% | 97% to 98.9% | < 97% |
-| P95 latency | <= 3s | 3s to 6s | > 6s |
+| P95 (95th percentile) latency | <= 3s | 3s to 6s | > 6s |
 | Policy violation rate | <= 0.1% | 0.1% to 0.5% | > 0.5% |
 | Ownerless active agents | 0 | 1 to 2 | > 2 |
 

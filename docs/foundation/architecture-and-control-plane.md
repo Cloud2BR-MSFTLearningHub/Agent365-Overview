@@ -35,7 +35,7 @@ across all participating agent types.
 | --- | --- | --- |
 | Experience | End-user agent interaction channels | Product or business teams |
 | Agent platform | Agent runtime, orchestration, skills, tools | Platform engineering |
-| Control plane | Registry, map, lifecycle, policy templates | AI admin and security governance |
+| Control plane | Registry, map, lifecycle, policy templates | AI (artificial intelligence) admin and security governance |
 | Identity and policy | Authentication, conditional access, role control | Identity and security operations |
 | Data and compliance | Classification, DLP (data loss prevention), retention | Data security and compliance |
 | Threat defense | Runtime detection and incident investigation | Security operations center |

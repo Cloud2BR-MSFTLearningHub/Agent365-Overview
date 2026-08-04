@@ -1,4 +1,4 @@
-# Agent365 SDK and Integration Paths
+# Agent365 SDK (software development kit) and Integration Paths
 
 Atlanta, USA
 
@@ -13,7 +13,7 @@ Last updated: 2026-08-04
 <summary>References</summary>
 
 - [Extend agents for Agent365](https://learn.microsoft.com/en-us/microsoft-agent-365/developer/)
-- [Agent365 SDK overview](https://learn.microsoft.com/en-us/microsoft-agent-365/developer/agent-365-sdk)
+- [Agent365 SDK (software development kit) overview](https://learn.microsoft.com/en-us/microsoft-agent-365/developer/agent-365-sdk)
 - [Microsoft 365 Copilot extensibility docs](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/)
 - [Microsoft Copilot Studio docs](https://learn.microsoft.com/en-us/microsoft-copilot-studio/)
 
@@ -34,7 +34,7 @@ without forcing a single development framework.
 | --- | --- |
 | Native Microsoft 365 Copilot extensibility | Copilot-first experiences with Microsoft-native channels |
 | Copilot Studio | Low-code agent development and managed publishing |
-| Agent365 SDK adapters | Existing custom or third-party agents requiring enterprise controls |
+| Agent365 SDK (software development kit) adapters | Existing custom or third-party agents requiring enterprise controls |
 | Hybrid multi-platform | Mixed estate with centralized governance requirements |
 
 ## Capability checklist for integration
@@ -62,6 +62,6 @@ without forcing a single development framework.
 ## Business example
 
 > A product team has an existing custom agent on a non-Microsoft runtime. It uses
-> Agent365 SDK integration patterns to register the agent, align identity and
+> Agent365 SDK (software development kit) integration patterns to register the agent, align identity and
 > telemetry, and enforce policy controls. This enables enterprise governance while
 > preserving the original engineering stack.

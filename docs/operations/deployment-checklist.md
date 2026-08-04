@@ -21,12 +21,12 @@ Last updated: 2026-08-04
 - [ ] Risk tier is assigned and approval lane is complete.
 - [ ] Lifecycle state and decommission path are documented.
 - [ ] Exceptions are approved with expiry date and accountable owner.
-- [ ] Tooling and MCP integrations are reviewed and logged.
+- [ ] Tooling and MCP (Model Context Protocol) integrations are reviewed and logged.
 
 ## Security and compliance readiness
 
 - [ ] Monitoring and alerting are configured for runtime behavior.
-- [ ] Data loss prevention (DLP) and sensitive-data controls are validated.
+- [ ] Data loss prevention (DLP (data loss prevention)) and sensitive-data controls are validated.
 - [ ] Incident response workflow and escalation matrix are confirmed.
 - [ ] Retention and audit evidence requirements are implemented.
 

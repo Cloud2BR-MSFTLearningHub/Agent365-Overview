@@ -14,7 +14,7 @@ Last updated: 2026-08-04
 
 - [Microsoft Agent 365 overview](https://learn.microsoft.com/en-us/microsoft-agent-365/overview)
 - [Copilot architecture: conditional access and multifactor authentication](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-architecture)
-- [Protect AI with Conditional Access policy](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-all-users-copilot-ai-security)
+- [Protect AI (artificial intelligence) with Conditional Access policy](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-all-users-copilot-ai-security)
 
 </details>
 
@@ -34,7 +34,7 @@ enterprise-scale data or control failures.
 | --- | --- | --- |
 | Agent business owner | Outcome definition, risk acceptance, prioritization | Security exception approval |
 | Agent technical owner | Implementation, release, support | Independent audit sign-off |
-| AI admin | Registry, lifecycle operations, policy execution | Unreviewed production bypass |
+| AI (artificial intelligence) admin | Registry, lifecycle operations, policy execution | Unreviewed production bypass |
 | Security operations | Monitoring, triage, response | Sole authority for business risk acceptance |
 | Compliance owner | Data handling controls and evidence quality | Unilateral deployment approvals |
 
@@ -46,7 +46,7 @@ enterprise-scale data or control failures.
 
 ## Access principles
 
-- Least privilege by default, with role-based access control (RBAC) at the narrowest practical scope.
+- Least privilege by default, with role-based access control (RBAC (role-based access control)) at the narrowest practical scope.
 - Just-in-time elevation for sensitive lifecycle operations.
 - Policy-based restrictions for non-compliant devices and risky sessions.
 - Explicit approval for cross-domain data access and external tooling.

@@ -24,7 +24,7 @@ to observe, govern, secure, and operationalize agents at scale.
   <a class="guide-card" href="overview/"><strong>Start Here</strong><br>Understand Agent 365 capabilities, scope, and decision points.</a>
   <a class="guide-card" href="foundation/architecture-and-control-plane/"><strong>Foundation</strong><br>Design tenant, identity, ownership, and data boundaries.</a>
   <a class="guide-card" href="observe/agent-registry-and-map/"><strong>Observe</strong><br>Build complete agent inventory, telemetry, health, and KPI tracking.</a>
-  <a class="guide-card" href="govern/lifecycle-and-policy/"><strong>Govern</strong><br>Apply lifecycle controls, approvals, policies, and MCP/tool standards.</a>
+  <a class="guide-card" href="govern/lifecycle-and-policy/"><strong>Govern</strong><br>Apply lifecycle controls, approvals, policies, and MCP (Model Context Protocol)/tool standards.</a>
   <a class="guide-card" href="secure/security-posture-and-defender/"><strong>Secure</strong><br>Reduce risk with identity controls, Defender, and runtime protection.</a>
   <a class="guide-card" href="operations/deployment-checklist/"><strong>Operate</strong><br>Deploy with evidence, run production safely, and handle incidents.</a>
 </div>

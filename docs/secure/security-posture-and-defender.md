@@ -12,8 +12,8 @@ Last updated: 2026-08-04
 <details markdown>
 <summary>References</summary>
 
-- [Secure AI agents at scale](https://learn.microsoft.com/en-us/security/security-for-ai/agent-365-security)
-- [Defender Security for AI](https://learn.microsoft.com/en-us/defender-xdr/security-for-ai/defender-security-for-ai)
+- [Secure AI (artificial intelligence) agents at scale](https://learn.microsoft.com/en-us/security/security-for-ai/agent-365-security)
+- [Defender Security for AI (artificial intelligence)](https://learn.microsoft.com/en-us/defender-xdr/security-for-ai/defender-security-for-ai)
 - [Detect, protect, and investigate agent threats](https://learn.microsoft.com/en-us/defender-xdr/security-for-ai/ai-agent-detection-protection)
 
 </details>

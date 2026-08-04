@@ -60,7 +60,7 @@ At a practical level, most Agent 365 designs have these layers:
 3. Identity and policy layer: Microsoft Entra access controls, conditional access,
 	 and role separation.
 4. Data and compliance layer: Microsoft Purview information protection, data loss
-	 prevention (DLP), and compliance workflows.
+	 prevention (DLP (data loss prevention)), and compliance workflows.
 5. Threat defense layer: Microsoft Defender detections, posture assessments,
 	 and response workflows.
 

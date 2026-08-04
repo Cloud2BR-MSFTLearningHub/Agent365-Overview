@@ -1,4 +1,4 @@
-# Agent365 Tools and MCP Governance
+# Agent365 Tools and MCP (Model Context Protocol) Governance
 
 Atlanta, USA
 
@@ -13,14 +13,14 @@ Last updated: 2026-08-04
 <summary>References</summary>
 
 - [Manage tools for agents](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-tools-for-agent)
-- [Work IQ MCP overview](https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview)
-- [Copilot Studio MCP certification](https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-certification)
+- [Work IQ (intelligence quotient) MCP (Model Context Protocol) overview](https://learn.microsoft.com/en-us/microsoft-agent-365/tooling-servers-overview)
+- [Copilot Studio MCP (Model Context Protocol) certification](https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-certification)
 
 </details>
 
 ## Governance objective
 
-Agent tools and model context protocol (MCP) integrations can create high-value
+Agent tools and model context protocol (MCP (Model Context Protocol)) integrations can create high-value
 automation and high-impact risk. Governance must enforce bounded capability and
 traceable authorization.
 
@@ -32,7 +32,7 @@ traceable authorization.
 | Tier 2 | Writes to business systems | Change control and stronger alerting |
 | Tier 3 | Privileged, financial, or regulated actions | Segregated approvals, runtime controls, audit evidence |
 
-## MCP governance requirements
+## MCP (Model Context Protocol) governance requirements
 
 1. Tool registration with owner, purpose, and risk tier.
 2. Contracted input and output validation requirements.
@@ -57,7 +57,7 @@ traceable authorization.
 
 ## Business example
 
-> A procurement automation agent uses an MCP server to create purchase requests.
+> A procurement automation agent uses an MCP (Model Context Protocol) server to create purchase requests.
 > Because the action changes financial systems, governance classifies it as Tier 3,
 > requires dual approval for production enablement, and introduces runtime approval
 > prompts for high-value transactions.

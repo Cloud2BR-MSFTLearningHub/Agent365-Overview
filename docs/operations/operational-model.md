@@ -18,11 +18,11 @@ business teams for day-two operations.
 
 | Process | Primary owner | Supporting teams |
 | --- | --- | --- |
-| New agent onboarding | AI admin | Platform engineering, security, compliance |
+| New agent onboarding | AI (artificial intelligence) admin | Platform engineering, security, compliance |
 | Policy and exception review | Governance owner | Security operations, business owner |
 | Runtime monitoring and triage | Security operations center | Platform support |
 | Quality and value optimization | Product owner | Data analyst, platform engineering |
-| Decommission and archival | AI admin | Compliance and records owners |
+| Decommission and archival | AI (artificial intelligence) admin | Compliance and records owners |
 
 ## Cadence model
 
