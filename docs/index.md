@@ -1,29 +1,49 @@
-# Documentation Hub
+# Microsoft Agent 365 Setup and Overview Hub
 
 Atlanta, USA
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
-Last updated: 2026-07-27
+Last updated: 2026-08-04
 
 ----------
 
-Replace this text with a short description of the project. This hub is published to
-GitHub Pages with MkDocs Material and inherits the organization's layout, colors,
-and last-updated date automatically.
+![Microsoft Agent 365 documentation banner from Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-agent-365/media/hub/banner.png)
+
+Agent 365 is the enterprise control plane for agent ecosystems. This hub provides
+a practical, implementation-first blueprint for IT, security, and platform teams
+to observe, govern, secure, and operationalize agents at scale.
 
 !!! warning
-    These guides are learning material. Confirm current support, pricing, and
-    service behavior in the official documentation before production use.
+    These guides are learning material. Validate current service behavior,
+    licensing, and support boundaries in official Microsoft documentation before
+    production rollout.
 
 <div class="guide-grid">
-  <a class="guide-card" href="overview/"><strong>Overview</strong><br>Start here: describe what the project is and who it is for.</a>
+  <a class="guide-card" href="overview/"><strong>Start Here</strong><br>Understand Agent 365 capabilities, scope, and decision points.</a>
+  <a class="guide-card" href="foundation/architecture-and-control-plane/"><strong>Foundation</strong><br>Design tenant, identity, ownership, and data boundaries.</a>
+  <a class="guide-card" href="observe/agent-registry-and-map/"><strong>Observe</strong><br>Build complete agent inventory, telemetry, health, and KPI tracking.</a>
+  <a class="guide-card" href="govern/lifecycle-and-policy/"><strong>Govern</strong><br>Apply lifecycle controls, approvals, policies, and MCP/tool standards.</a>
+  <a class="guide-card" href="secure/security-posture-and-defender/"><strong>Secure</strong><br>Reduce risk with identity controls, Defender, and runtime protection.</a>
+  <a class="guide-card" href="operations/deployment-checklist/"><strong>Operate</strong><br>Deploy with evidence, run production safely, and handle incidents.</a>
 </div>
 
-## Get started with this template
+## Use this hub
 
-1. Update `site_name`, `site_url`, `repo_url`, and `repo_name` in `mkdocs.yml`.
-2. Add pages under `docs/` and list them in the `nav` section of `mkdocs.yml`.
-3. Keep the standard header block at the top of every Markdown file.
-4. In the repository settings, set the Pages source to **GitHub Actions**.
+| If your goal is | Start with |
+| --- | --- |
+| Understand what Agent 365 changes operationally | [Overview](overview.md) |
+| Define architecture and operating boundaries | [Architecture and control plane](foundation/architecture-and-control-plane.md) |
+| Establish least-privilege access | [Roles, identity, and access](foundation/roles-identity-and-access.md) |
+| Discover and monitor all agents | [Agent registry and Agent Map](observe/agent-registry-and-map.md) |
+| Create governance and approvals | [Lifecycle and policy controls](govern/lifecycle-and-policy.md) |
+| Protect data and reduce leakage risk | [Data security and Purview](secure/data-security-and-purview.md) |
+| Prepare production rollout | [Deployment checklist](operations/deployment-checklist.md) |
+
+## Recommended implementation sequence
+
+1. Build your foundation: architecture, ownership, identity, and policy boundaries.
+2. Onboard a pilot set of agents and validate discovery, observability, and controls.
+3. Operationalize governance and security controls with approval and rollback paths.
+4. Move to scaled operations only after KPI and incident workflows are proven.

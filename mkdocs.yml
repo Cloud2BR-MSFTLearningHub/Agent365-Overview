@@ -1,9 +1,9 @@
 # Update site_name, site_url, repo_url, and repo_name for each new repository.
-site_name: Documentation Hub
-site_description: Overview and setup documentation for this project.
-site_url: https://cloud2br-msftlearninghub.github.io/org-repo-template/
-repo_url: https://github.com/Cloud2BR-MSFTLearningHub/org-repo-template
-repo_name: Cloud2BR-MSFTLearningHub/org-repo-template
+site_name: Microsoft Agent 365 Setup and Overview Hub
+site_description: Detailed implementation guidance for Microsoft Agent 365 across observe, govern, secure, and operate capabilities.
+site_url: https://cloud2br-msftlearninghub.github.io/Agent365-Overview/
+repo_url: https://github.com/Cloud2BR-MSFTLearningHub/Agent365-Overview
+repo_name: Cloud2BR-MSFTLearningHub/Agent365-Overview
 docs_dir: docs
 site_dir: site
 copyright: Copyright &copy; 2026 <a href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener">Cloud2BR OSS - Learning Hub</a>
@@ -46,3 +46,24 @@ extra:
 nav:
   - Home: index.md
   - Overview: overview.md
+  - Foundation:
+    - Architecture and Control Plane: foundation/architecture-and-control-plane.md
+    - Roles, Identity, and Access: foundation/roles-identity-and-access.md
+    - Data Boundary and Compliance: foundation/data-boundary-and-compliance.md
+  - Observe:
+    - Agent Registry and Agent Map: observe/agent-registry-and-map.md
+    - Observability and Agent Health: observe/observability-and-health.md
+    - Value Tracking and KPIs: observe/value-and-kpis.md
+  - Govern:
+    - Lifecycle and Policy Controls: govern/lifecycle-and-policy.md
+    - Onboarding and Approvals: govern/onboarding-and-approvals.md
+    - Tools and MCP Governance: govern/tools-and-mcp-governance.md
+  - Secure:
+    - Security Posture and Defender: secure/security-posture-and-defender.md
+    - Data Security and Purview: secure/data-security-and-purview.md
+  - Operations:
+    - Deployment Checklist: operations/deployment-checklist.md
+    - Operating Model: operations/operational-model.md
+    - Incident Response and Break-Glass: operations/incident-response-and-breakglass.md
+  - Extend:
+    - SDK and Integration Paths: extend/sdk-and-integration.md
